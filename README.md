@@ -15,3 +15,6 @@ Framework phổ biến: Spring Framework, Hibernate
 
 Java nhiều việc, lương cao: https://itviec.com/it-jobs/java/ha-noi
 
+Nếu học trái ngành, chuẩn hóa bằng cách thi chứng chỉ: https://education.oracle.com/certification
+
+
