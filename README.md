@@ -12,3 +12,6 @@ https://www.jetbrains.com/idea/download/#section=windows
 5. Cộng đồng Java lớn mạnh
 
 Framework phổ biến: Spring Framework, Hibernate
+
+Java nhiều việc, lương cao: https://itviec.com/it-jobs/java/ha-noi
+
