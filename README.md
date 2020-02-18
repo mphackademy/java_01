@@ -25,3 +25,25 @@ jdk-13.0.2_windows-x64_bin.exe
 
 Mac: ...
 
+```
+package org.example;
+
+import java.util.Date;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Date abcxyz = new Date();
+
+        System.out.println( "xin chao llllll" );
+    }
+}
+```
+
+
+
