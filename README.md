@@ -17,4 +17,11 @@ Java nhiều việc, lương cao: https://itviec.com/it-jobs/java/ha-noi
 
 Nếu học trái ngành, chuẩn hóa bằng cách thi chứng chỉ: https://education.oracle.com/certification
 
+JDK: https://www.oracle.com/java/technologies/javase-jdk13-downloads.html
+
+Windows: https://download.oracle.com/otn-pub/java/jdk/13.0.2+8/d4173c853231432d94f001e99d882ca7/jdk-13.0.2_windows-x64_bin.exe?AuthParam=1582028017_06f28d4aeb8f3b0afc31802aa5ab4553
+
+jdk-13.0.2_windows-x64_bin.exe
+
+Mac: ...
 
