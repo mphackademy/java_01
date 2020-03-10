@@ -34,7 +34,7 @@ Phương thức:
 Gợi ý:
 
 ```java
-package com;
+package vn.mphackademy.course;
 
 import java.util.Date;
 
