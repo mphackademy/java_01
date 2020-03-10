@@ -29,4 +29,4 @@ Thuộc tính:
 Phương thức:
 - In ra tên đầy đủ (fullName)
 - Trả về tuổi của học viên.
-- In ra tỉnh/huyện của Địa chỉ thường trú của học viên.
+- In ra tỉnh/thành phố của Địa chỉ thường trú của học viên.
