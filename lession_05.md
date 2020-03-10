@@ -30,3 +30,27 @@ Phương thức:
 - In ra tên đầy đủ (fullName)
 - Trả về tuổi của học viên.
 - In ra tỉnh/thành phố của Địa chỉ thường trú của học viên.
+
+Gợi ý:
+
+```java
+package com;
+
+import java.util.Date;
+
+public class Student {
+
+    /**
+     * Ngày sinh của học viên.
+     */
+    Date dateOfBirth;
+    
+    //....
+    
+}
+```
+
+Nộp bài trước buổi học học tối thứ năm, gửi vào email vydn@mpsoftware.com.vn
+
+
+
