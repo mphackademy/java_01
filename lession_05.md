@@ -122,4 +122,71 @@ public class Cat {
 }
 ```
 
+##### Bài 2
+
+``````java
+package org.example;
+
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.Date;
+
+/**
+ * Học viên.
+ */
+public class Student {
+
+    /**
+     * Tên gọi.
+     */
+    String firstName;
+
+    /**
+     * Họ và tên đệm.
+     */
+    String lastName;
+
+    /**
+     * Giới tính.
+     */
+    String gender;
+
+    /**
+     * Địa chỉ thường trú.
+     */
+    String residenceAddress;
+
+    /**
+     * Ngày sinh của học viên.
+     */
+    LocalDate dateOfBirth;
+
+    /**
+     * In ra họ và tên đầy đủ của học viên.
+     */
+    public void printFullName() {
+        System.out.println(lastName + " " + firstName);
+    }
+
+    /**
+     * Tính tuổi của học viên.
+     *
+     * @return
+     */
+    public int getStudentAge() {
+        // Thời điểm hiện tại.
+        LocalDate now = LocalDate.now();
+        return Period.between(dateOfBirth, now).getYears();
+    }
+
+    /**
+     * In ra địa chỉ nơi cư trú của học viên.
+     */
+    public void printStudentResidenceAddress() {
+        System.out.println("Địa chỉ nơi cư trú của học viên: " + residenceAddress);
+    }
+
+}
+``````
+
 
