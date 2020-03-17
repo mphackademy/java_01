@@ -155,6 +155,74 @@ public class Cat implements Runable {
 }
 ``````
 
+#### Enum
+``````java
+package org.example;
+
+/**
+ * Xếp loại bằng tốt nghiệp.
+ */
+public enum GRADE {
+
+    /**
+     * Xuất sắc.
+     */
+    DISTINCTION,
+
+    /**
+     * Giỏi.
+     */
+    EXCELLENT,
+
+    /**
+     * Khá.
+     */
+    GOOD,
+
+    /**
+     * Trung bình khá.
+     */
+    ABOVE_AVERAGE,
+
+    /**
+     * Trung bình.
+     */
+    AVERAGE
+}
+``````
+
+
+``````java
+package org.example;
+
+/**
+ * Các mùa trong năm.
+ */
+public enum Seasons {
+    /**
+     * Mùa xuân.
+     */
+    SPRING,
+
+    /**
+     * Mùa hè.
+     */
+    SUMMER,
+
+    /**
+     * Mùa thu.
+     */
+    AUTUMN,
+
+    /**
+     * Mùa đông.
+     */
+    WINTER
+}
+``````
+
+
+
 
 
 
