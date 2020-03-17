@@ -85,7 +85,7 @@ public class Cat {
     /**
      * Săn mồi.
      *
-     * @return
+     * @return Số con chuột mà mèo bắt được.
      */
     public int hunt(){
         // Số con chuột mà mèo bắt được.
@@ -101,8 +101,24 @@ public class Cat {
         System.out.println("Meo meo gumm gumm");
     }
 
-    
-    
+    /**
+     * Mèo nhảy lên cao.
+     *
+     * @return Độ cao mà mèo nhảy được, tính bằng mét.
+     */
+    public int jump(){
+        // Độ cao mà mèo nhảy được
+        int height = 2;
+        return height;
+    }
+
+    /**
+     * Mèo leo trèo ở đâu đó.
+     */
+    public void clim(){
+        System.out.println("Leo lên cây cau.");
+    }
+
 }
 ```
 
