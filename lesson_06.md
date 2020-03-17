@@ -221,7 +221,106 @@ public enum Seasons {
 }
 ``````
 
+#### get, set
 
+``````java
+package org.example;
+
+/**
+ * Con mèo.
+ */
+public class Cat implements Runable {
+
+    /**
+     * Màu lông của con mèo.
+     */
+    String furColor;
+
+    /**
+     * Giới tính của con mèo.
+     */
+    String gender;
+
+    /**
+     * Tuổi của con mèo.
+     */
+    int age;
+
+    /**
+     * Số chân của con mèo.
+     */
+    int numberOfLegs = 4;
+
+    /**
+     * Săn mồi.
+     *
+     * @return Số con chuột mà mèo bắt được.
+     */
+    public int hunt(){
+        // Số con chuột mà mèo bắt được.
+        int catchedMouses = 2;
+        System.out.println("Con mèo đã bắt được " + catchedMouses + " con chuột.");
+        return catchedMouses;
+    }
+
+    /**
+     * Kêu meo meo.
+     */
+    public void meow(){
+        System.out.println("Meo meo gumm gumm");
+    }
+
+    /**
+     * Mèo nhảy lên cao.
+     *
+     * @return Độ cao mà mèo nhảy được, tính bằng mét.
+     */
+    public int jump(){
+        // Độ cao mà mèo nhảy được
+        int height = 2;
+        return height;
+    }
+
+    /**
+     * Mèo leo trèo ở đâu đó.
+     */
+    public void clim(){
+        System.out.println("Leo lên cây cau.");
+    }
+
+    public String getFurColor() {
+        return furColor;
+    }
+
+    public void setFurColor(String furColor) {
+        this.furColor = furColor;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getNumberOfLegs() {
+        return numberOfLegs;
+    }
+
+    public void setNumberOfLegs(int numberOfLegs) {
+        this.numberOfLegs = numberOfLegs;
+    }
+}
+``````
 
 
 
