@@ -39,8 +39,17 @@ import org.example.People;
 /**
  * Nhân viên.
  */
-public class Employee extends People {
+public abstract class Employee extends People {
 
 }
 ``````
 
+
+``````java
+package organization;
+
+public class SecurityEmployee extends Employee {
+    
+}
+
+``````
