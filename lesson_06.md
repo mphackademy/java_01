@@ -162,7 +162,7 @@ package org.example;
 /**
  * Xếp loại bằng tốt nghiệp.
  */
-public enum GRADE {
+public enum Grades {
 
     /**
      * Xuất sắc.
