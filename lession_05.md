@@ -52,5 +52,58 @@ public class Student {
 
 Nộp bài trước buổi học học tối thứ năm, gửi vào email vydn@mpsoftware.com.vn
 
+Đáp án
+
+````java
+package org.example;
+
+/**
+ * Con mèo.
+ */
+public class Cat {
+
+    /**
+     * Màu lông của con mèo.
+     */
+    String furColor;
+
+    /**
+     * Giới tính của con mèo.
+     */
+    String gender;
+
+    /**
+     * Tuổi của con mèo.
+     */
+    int age;
+
+    /**
+     * Số chân của con mèo.
+     */
+    int numberOfLengths = 4;
+
+    /**
+     * Săn mồi.
+     *
+     * @return
+     */
+    public int hunt(){
+        // Số con chuột mà mèo bắt được.
+        int catchedMouses = 2;
+        System.out.println("Con mèo đã bắt được " + catchedMouses + " con chuột.");
+        return catchedMouses;
+    }
+
+    /**
+     * Kêu meo meo.
+     */
+    public void meow(){
+        System.out.println("Meo meo gumm gumm");
+    }
+
+    
+    
+}
+```
 
 
