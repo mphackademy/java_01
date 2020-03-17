@@ -113,7 +113,7 @@ public class Cat implements Runable {
     /**
      * Số chân của con mèo.
      */
-    int numberOfLengths = 4;
+    int numberOfLegs = 4;
 
     /**
      * Săn mồi.
