@@ -19,6 +19,14 @@ public class App {
 
         LocalDate aDayAfterTomorrow = tomorrow.plusDays(1L);
         System.out.println("Ngày kia là: " + aDayAfterTomorrow);
+        System.out.println("Ngày kia là thứ mấy? " + aDayAfterTomorrow.getDayOfWeek());
+
+
+        // Ngày này năm trước.
+        LocalDate thisDayLastYear = todayLocalDate.minusYears(1L);
+        System.out.println("Ngày này năm trước là: " + thisDayLastYear);
+        System.out.println("Ngày này năm trước là thứ mấy? " + thisDayLastYear.getDayOfWeek());
+        
     }
 }
 ``````
