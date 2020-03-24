@@ -54,3 +54,79 @@ public class ACMEBicycle implements Bicycle {
     }
 }
 ``````
+
+### Sửa lại một chút cho vui.
+
+``````java
+package oop;
+
+/**
+ * Xe đạp
+ */
+public interface Bicycle {
+    //  wheel revolutions per minute
+
+    /**
+     * Số vòng quay của bánh xe mỗi phút.
+     *
+     * @param newValue Giá trị mới của Số vòng quay/phút.
+     */
+    void changeCadence(int newValue);
+
+    /**
+     * Sang số.
+     *
+     * @param newValue
+     */
+    void changeGear(int newValue);
+
+    /**
+     * Tăng tốc lên nào.
+     *
+     * @param increment
+     */
+    void speedUp(int increment);
+
+    /**
+     * Phanh kít.
+     *
+     * @param decrement
+     */
+    void applyBrakes(int decrement);
+
+}
+``````
+
+``````java
+package oop;
+
+/**
+ * Xe đạp Thống Nhất - Made in Vietnam.
+ */
+public class ThongNhatBicycle implements Bicycle {
+    
+    @Override
+    public void changeCadence(int newValue) {
+        System.out.println("Thay đổi số vòng quay/phút.");
+    }
+
+    @Override
+    public void changeGear(int newValue) {
+        System.out.println("Đổi số");
+    }
+
+    @Override
+    public void speedUp(int increment) {
+        System.out.println("Tăng tốc rồi, đi nhanh quá bạn ơi.");
+    }
+
+    @Override
+    public void applyBrakes(int decrement) {
+        System.out.println("Đã phanh rồi nhé, vì phía đằng trước là cái ổ gà.");
+    }
+}
+``````
+
+
+
+
