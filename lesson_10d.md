@@ -43,9 +43,9 @@ import java.util.Map;
 public class ReadEnvironmentVariables {
 
     public static void main(String[] args) {
-        Map<String, String> enviromentVariables = System.getenv();
-        for (String key : enviromentVariables.keySet()) {
-            System.out.println("Biến " + key + " = " + enviromentVariables.get(key));
+        Map<String, String> vars = System.getenv();
+        for (String key : vars.keySet()) {
+            System.out.println("Biến " + key + " = " + vars.get(key));
         }
     }
 
