@@ -31,4 +31,4 @@ hoặc
 C:\Users\Admin\IdeaProjects\untitled2\practice\target\classes>java -cp . org.PassingArguments Chao ban Hung
 ``````
 
-
+Đổi encoding của CMD https://stackoverflow.com/a/18439832/3728901
