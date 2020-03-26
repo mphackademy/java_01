@@ -32,3 +32,23 @@ C:\Users\Admin\IdeaProjects\untitled2\practice\target\classes>java -cp . org.Pas
 ``````
 
 Đổi encoding của CMD https://stackoverflow.com/a/18439832/3728901
+
+#### Đọc giá trị của các biến môi trường
+
+``````java
+package org.example;
+
+import java.util.Map;
+
+public class ReadEnvironmentVariables {
+
+    public static void main(String[] args) {
+        Map<String, String> enviromentVariables = System.getenv();
+        for (String key : enviromentVariables.keySet()) {
+            System.out.println("Biến " + key + " = " + enviromentVariables.get(key));
+        }
+    }
+
+}
+``````
+
