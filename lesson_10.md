@@ -59,3 +59,22 @@ public class TestClass {
 }
 ``````
 
+### Truy cập biến có tầm vực ``private`` bởi phương thức trung gian
+
+``````java
+public class VisiblityCheck {
+
+    public static void main(String[] args){
+        TestClass testClass = new TestClass();
+        testClass.setLong(42);
+
+        testClass.visibleFromEntirePackage = 3.14;
+        System.out.println(testClass.getLong());
+
+        System.out.println(testClass.visibleFromEntirePackage);
+    }
+
+}
+``````
+
+
