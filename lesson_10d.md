@@ -18,3 +18,17 @@ public class PassingArguments {
 
 }
 ``````
+
+Câu lệnh
+
+``````
+C:\Users\Admin\IdeaProjects\untitled2\practice\target\classes>java -Dfile.encoding=UTF-8 -cp . org.PassingArguments Chao ban Hung
+``````
+
+hoặc
+
+``````
+C:\Users\Admin\IdeaProjects\untitled2\practice\target\classes>java -cp . org.PassingArguments Chao ban Hung
+``````
+
+
