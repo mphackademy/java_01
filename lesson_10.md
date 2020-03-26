@@ -39,3 +39,23 @@ public class DeclarationsExample {
 
 }
 ``````
+
+#### Tầm vực của field
+
+``````java
+public class TestClass {
+
+    private long visibleOnlyThisClass;
+    double visibleFromEntirePackage;
+
+    void setLong(long valueFoo) {
+        visibleOnlyThisClass = valueFoo;
+    }
+
+    long getLong() {
+        return visibleOnlyThisClass;
+    }
+
+}
+``````
+
