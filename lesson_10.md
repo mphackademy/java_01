@@ -62,7 +62,7 @@ public class TestClass {
 ### Truy cập biến có tầm vực ``private`` bởi phương thức trung gian
 
 ``````java
-public class VisiblityCheck {
+public class VisibilityCheck {
 
     public static void main(String[] args){
         TestClass testClass = new TestClass();
