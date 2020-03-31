@@ -56,5 +56,23 @@ public class Application {
 }
 ```
 
+```java
+package org.example;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class App {
+
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(1, 2, 5, 8, 9, 10, 12, 15, 16, 18);
+        int sum = numbers.parallelStream().filter(n -> n % 3 == 0)
+                .reduce(0, Integer::sum);
+        System.out.println("Tổng các số chia hết cho 3 là " + sum);
+    }
+
+}
+```
+
 
 
