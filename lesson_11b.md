@@ -70,4 +70,22 @@ public class App {
 }
 ```
 
+Kết quả
+```
+Lấy ra số nguyên 1
+Lấy ra số lẻ: 1
+y bình phương cộng 1 là 2
+------------
+Lấy ra số nguyên 2
+Lấy ra số nguyên 3
+Lấy ra số lẻ: 3
+y bình phương cộng 1 là 10
+------------
+Lấy ra số nguyên 4
+Lấy ra số nguyên 5
+Lấy ra số lẻ: 5
+y bình phương cộng 1 là 26
+------------
+Tổng của các số hạng (n^2 + 1) là 38
+```
 
