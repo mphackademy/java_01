@@ -74,5 +74,25 @@ public class App {
 }
 ```
 
+```java
+package org.example;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class App {
+
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(1, 2, 5, 8, 9, 10, 12, 15, 16, 18);
+        int sum = numbers
+                .stream()
+                .filter(n -> n % 9 == 0)
+                .map(n -> n * n)
+                .reduce(0, Integer::sum);
+        System.out.println("Tổng bình phương của các số chia hết cho 9 là " + sum);
+    }
+
+}
+```
 
 
