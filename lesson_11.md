@@ -28,3 +28,33 @@ public class StreamExample {
 
 }
 ```
+
+```java
+package org.example;
+
+import java.nio.ByteBuffer;
+import java.nio.InvalidMarkException;
+
+public class Application {
+
+    public static void main(String[] args) {
+        ByteBuffer byteBuffer = ByteBuffer.allocate(8);
+        System.out.println("Capacity: " + byteBuffer.capacity());
+        System.out.println("Limit: " + byteBuffer.limit());
+        System.out.println("1. Position: " + byteBuffer.position());
+
+        byteBuffer.position(3);
+        System.out.println("2. Position: " + byteBuffer.position());
+        try{
+            byteBuffer.reset();
+            System.out.println("3. Position = " + byteBuffer.position());
+        }catch (InvalidMarkException e){
+            System.err.println("Mark is not set.");
+        }
+    }
+
+}
+```
+
+
+
