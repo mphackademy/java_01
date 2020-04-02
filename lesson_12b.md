@@ -48,6 +48,7 @@ package org.example;
 /**
  * Bộ nhân.
  */
+@FunctionalInterface
 public interface Multiplier {
 
     /**
