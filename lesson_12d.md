@@ -94,5 +94,37 @@ public class LambdaUtilTest {
 }
 ```
 
+```java
+package org.example;
+
+public class LambdaUtilTest2 {
+
+    public static void main(String[] args) {
+        LambdaUtilTest2 util = new LambdaUtilTest2();
+        util.test((double x, double y) -> x + y);
+        // util.test((String x, String y) -> x + y);
+    }
+
+    public void test(Adder adder) {
+        double x = 190.90;
+        double y = 8.50;
+        double sum = adder.add(x, y);
+        System.out.println("Using adder: ");
+        System.out.println(x + " + " + y + " = " + sum);
+    }
+
+    //overloading: nạp chồng phương thức.
+
+    public void test(Joiner joiner) {
+        String s1 = "Hello";
+        String s2 = "World";
+        String s3 = joiner.join(s1, s2);
+        System.out.println("Using a Joiner: ");
+        System.out.println("\"" + s1 + "\" + \"" + s2 + " = \"" + s3 + "\"");
+    }
+
+}
+```
+
 
 
