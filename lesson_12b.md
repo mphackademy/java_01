@@ -90,4 +90,34 @@ public class TargetTypeTest {
 }
 ```
 
+### Sử dụng method lamda expression như đối số của phương thức khác.
+
+```java
+package org.example;
+
+public class LambdaUtil {
+
+    public static void main(String[] args) {
+        LambdaUtil util = new LambdaUtil();
+        util.testAdder((x, y) -> x + y);
+        util.testJoiner((m, n) -> m + " " + n);
+    }
+
+    public void testAdder(Adder adder) {
+        double x = 3;
+        double y = 2;
+        double sum = adder.add(x, y);
+        System.out.println("Tổng của số " + x + " và " + y + " là " + sum);
+    }
+
+    public void testJoiner(Joiner joiner) {
+        String s1 = "Ở nhà";
+        String s2 = "tránh dịch COVID-19";
+        String result = joiner.join(s1, s2);
+        System.out.println("Sau khi ghép chuỗi \"" + s1 + "\" và \"" + s2 + "\" thì được xâu mới là \"" + result + "\".");
+    }
+
+}
+```
+
 
