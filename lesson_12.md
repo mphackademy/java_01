@@ -6,7 +6,7 @@ package org.example;
 @FunctionalInterface
 public interface Adder {
 
-    String join(String s1, String s2);
+    double join(double s1, double s2);
 
 }
 ```
