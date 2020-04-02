@@ -36,17 +36,17 @@ public class TargetTypeTest {
 
     public static void main(String[] args) {
         // Create an Adder using a lambda expression.
-        Adder adder = (x, y) -> x + y;
+        Adder add = (x, y) -> x + y;
 
         // Create an Joiner using a lambda expression.
-        Joiner joiner = (x, y ) -> x + " " + y;
+        Joiner join = (x, y ) -> x + " " + y;
 
         // Cộng 2 số.
-        double sum1 = adder.add(10.34, 89.11);
+        double sum1 = add.add(10.34, 89.11);
         System.out.println("Tổng của 2 số là " + sum1);
 
         // Ghép 2 xâu.
-        String hungFullname = joiner.join("Phan Thế", "Hưng");
+        String hungFullname = join.join("Phan Thế", "Hưng");
         System.out.println("Tên đầy đủ của Hưng là " + hungFullname);
     }
 
