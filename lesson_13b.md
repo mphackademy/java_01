@@ -63,3 +63,28 @@ public class ComputerAccessory {
 }
 ```
 
+```java
+package org.example;
+
+public class ComputerAccessoryTest {
+
+    public static void main(String[] args) {
+        // Tạo 2 màn hình máy tính.
+        ComputerAccessory.Monitor m17 = new ComputerAccessory.Monitor(17);
+        ComputerAccessory.Monitor m19 = new ComputerAccessory.Monitor(19);
+
+        // Create 2 keyboards
+        ComputerAccessory.KeyBoard k101 = new ComputerAccessory.KeyBoard(101);
+        ComputerAccessory.KeyBoard k104 = new ComputerAccessory.KeyBoard(104);
+
+        System.out.println(m17);
+        System.out.println(m19);
+        System.out.println(k101);
+        System.out.println(k104);
+    }
+
+}
+```
+
+
+
