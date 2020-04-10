@@ -21,3 +21,36 @@ public class B {
 }
 
 ```
+
+
+```java
+package org.example;
+
+public class B {
+    public static class M {
+        public static class G {
+            public static class X {
+                public void printSomething() {
+                    System.out.println(">>>> hehe <<");
+                }
+            }
+        }
+    }
+
+}
+```
+
+```java
+package org.example;
+
+public class BTest {
+
+    public static void main(String[] args) {
+        B.M.G.X x = new B.M.G.X();
+        x.printSomething();
+    }
+
+}
+```
+
+
