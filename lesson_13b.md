@@ -3,6 +3,20 @@
 ```java
 package org.example;
 
+public class A {
+
+    // static member class.
+    public static class B {
+        // Body for class B goes here.
+    }
+
+}
+````
+
+
+```java
+package org.example;
+
 /**
  * Linh kiện máy tính.
  */
