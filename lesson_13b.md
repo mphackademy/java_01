@@ -52,7 +52,7 @@ public class ComputerAccessory {
         private int keys;
 
         public KeyBoard(int keys) {
-
+            this.keys = keys;
         }
 
         public String toString() {
