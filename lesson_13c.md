@@ -53,4 +53,29 @@ public class BTest {
 }
 ```
 
+```java
+package org.example;
+
+public class B {
+    public static class M {
+        public static class G {
+            public static class X {
+                public void printSomething() {
+                    System.out.println(">>>> hehe <<");
+                }
+            }
+        }
+
+        public static class G2 {
+            public static class X {
+                public void printSomething() {
+                    System.out.println(">>>> hehe keke @@@");
+                }
+            }
+        }
+    }
+
+}
+```
+
 
