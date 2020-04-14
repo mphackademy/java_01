@@ -68,7 +68,7 @@ Exception in thread "main" java.lang.NullPointerException: Tiêu đề sách kh�
 	at org.example.Book.getTitle(Book.java:...)
 ```
 
-### StackOverFlow
+##### `java.lang.StackOverflowError`
 
 ```java
 package org.example;
