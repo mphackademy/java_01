@@ -12,4 +12,10 @@ public class App {
 }
 ```
 
+Lỗi
+```
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+```
+
 
